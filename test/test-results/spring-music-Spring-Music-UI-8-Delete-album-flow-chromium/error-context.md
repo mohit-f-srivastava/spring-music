@@ -1,0 +1,499 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Spring Music " [ref=e5] [cursor=pointer]:
+        - /url: "#"
+        - text: Spring Music
+        - generic [ref=e6]: 
+      - button "" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: 
+  - generic [ref=e11]:
+    - generic [ref=e13]:
+      - heading "Albums" [level=1] [ref=e14]
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: "View:"
+          - button "" [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: 
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21]: 
+        - generic [ref=e22]:
+          - generic [ref=e23]: "Sort:"
+          - button "Title " [ref=e24] [cursor=pointer]:
+            - text: Title
+            - generic [ref=e25]: 
+          - button "Artist" [ref=e26] [cursor=pointer]
+          - button "Year" [ref=e27] [cursor=pointer]
+          - button "Genre" [ref=e28] [cursor=pointer]
+        - button " Add Album" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]: 
+          - text: Add Album
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - heading "A Night At The Opera" [level=5] [ref=e35]:
+            - generic "Click to edit" [ref=e36] [cursor=pointer]: A Night At The Opera
+          - heading "Queen" [level=6] [ref=e37]:
+            - generic "Click to edit" [ref=e38] [cursor=pointer]: Queen
+          - paragraph [ref=e39]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e40] [cursor=pointer]: "1975"
+          - paragraph [ref=e41]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e42] [cursor=pointer]: Rock
+        - generic [ref=e44]:
+          - button "" [ref=e45] [cursor=pointer]:
+            - generic [ref=e46]: 
+          - text:  
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - heading "Abbey Road" [level=5] [ref=e50]:
+            - generic "Click to edit" [ref=e51] [cursor=pointer]: Abbey Road
+          - heading "The Beatles" [level=6] [ref=e52]:
+            - generic "Click to edit" [ref=e53] [cursor=pointer]: The Beatles
+          - paragraph [ref=e54]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e55] [cursor=pointer]: "1969"
+          - paragraph [ref=e56]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e57] [cursor=pointer]: Rock
+        - generic [ref=e59]:
+          - button "" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: 
+          - text:  
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - heading "Achtung Baby" [level=5] [ref=e65]:
+            - generic "Click to edit" [ref=e66] [cursor=pointer]: Achtung Baby
+          - heading "U2" [level=6] [ref=e67]:
+            - generic "Click to edit" [ref=e68] [cursor=pointer]: U2
+          - paragraph [ref=e69]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e70] [cursor=pointer]: "1991"
+          - paragraph [ref=e71]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e72] [cursor=pointer]: Rock
+        - generic [ref=e74]:
+          - button "" [ref=e75] [cursor=pointer]:
+            - generic [ref=e76]: 
+          - text:  
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - heading "Are You Experienced?" [level=5] [ref=e80]:
+            - generic "Click to edit" [ref=e81] [cursor=pointer]: Are You Experienced?
+          - heading "Jimi Hendrix Experience" [level=6] [ref=e82]:
+            - generic "Click to edit" [ref=e83] [cursor=pointer]: Jimi Hendrix Experience
+          - paragraph [ref=e84]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e85] [cursor=pointer]: "1967"
+          - paragraph [ref=e86]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e87] [cursor=pointer]: Rock
+        - generic [ref=e89]:
+          - button "" [ref=e90] [cursor=pointer]:
+            - generic [ref=e91]: 
+          - text:  
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - heading "Born to Run" [level=5] [ref=e95]:
+            - generic "Click to edit" [ref=e96] [cursor=pointer]: Born to Run
+          - heading "Bruce Springsteen" [level=6] [ref=e97]:
+            - generic "Click to edit" [ref=e98] [cursor=pointer]: Bruce Springsteen
+          - paragraph [ref=e99]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e100] [cursor=pointer]: "1975"
+          - paragraph [ref=e101]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e102] [cursor=pointer]: Rock
+        - generic [ref=e104]:
+          - button "" [ref=e105] [cursor=pointer]:
+            - generic [ref=e106]: 
+          - text:  
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - heading "Born Under A Bad Sign" [level=5] [ref=e110]:
+            - generic "Click to edit" [ref=e111] [cursor=pointer]: Born Under A Bad Sign
+          - heading "Albert King" [level=6] [ref=e112]:
+            - generic "Click to edit" [ref=e113] [cursor=pointer]: Albert King
+          - paragraph [ref=e114]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e115] [cursor=pointer]: "1967"
+          - paragraph [ref=e116]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e117] [cursor=pointer]: Blues
+        - generic [ref=e119]:
+          - button "" [ref=e120] [cursor=pointer]:
+            - generic [ref=e121]: 
+          - text:  
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - heading "Couldn't Stand The Weather" [level=5] [ref=e125]:
+            - generic "Click to edit" [ref=e126] [cursor=pointer]: Couldn't Stand The Weather
+          - heading "Stevie Ray Vaughan" [level=6] [ref=e127]:
+            - generic "Click to edit" [ref=e128] [cursor=pointer]: Stevie Ray Vaughan
+          - paragraph [ref=e129]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e130] [cursor=pointer]: "1984"
+          - paragraph [ref=e131]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e132] [cursor=pointer]: Blues
+        - generic [ref=e134]:
+          - button "" [ref=e135] [cursor=pointer]:
+            - generic [ref=e136]: 
+          - text:  
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - heading "Don't Look Back" [level=5] [ref=e140]:
+            - generic "Click to edit" [ref=e141] [cursor=pointer]: Don't Look Back
+          - heading "Boston" [level=6] [ref=e142]:
+            - generic "Click to edit" [ref=e143] [cursor=pointer]: Boston
+          - paragraph [ref=e144]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e145] [cursor=pointer]: "1978"
+          - paragraph [ref=e146]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e147] [cursor=pointer]: Rock
+        - generic [ref=e149]:
+          - button "" [ref=e150] [cursor=pointer]:
+            - generic [ref=e151]: 
+          - text:  
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - heading "Exile on Main Street" [level=5] [ref=e155]:
+            - generic "Click to edit" [ref=e156] [cursor=pointer]: Exile on Main Street
+          - heading "The Rolling Stones" [level=6] [ref=e157]:
+            - generic "Click to edit" [ref=e158] [cursor=pointer]: The Rolling Stones
+          - paragraph [ref=e159]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e160] [cursor=pointer]: "1972"
+          - paragraph [ref=e161]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e162] [cursor=pointer]: Rock
+        - generic [ref=e164]:
+          - button "" [ref=e165] [cursor=pointer]:
+            - generic [ref=e166]: 
+          - text:  
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - heading "Folk Singer" [level=5] [ref=e170]:
+            - generic "Click to edit" [ref=e171] [cursor=pointer]: Folk Singer
+          - heading "Muddy Waters" [level=6] [ref=e172]:
+            - generic "Click to edit" [ref=e173] [cursor=pointer]: Muddy Waters
+          - paragraph [ref=e174]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e175] [cursor=pointer]: "1964"
+          - paragraph [ref=e176]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e177] [cursor=pointer]: Blues
+        - generic [ref=e179]:
+          - button "" [ref=e180] [cursor=pointer]:
+            - generic [ref=e181]: 
+          - text:  
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - heading "Hotel California" [level=5] [ref=e185]:
+            - generic "Click to edit" [ref=e186] [cursor=pointer]: Hotel California
+          - heading "The Eagles" [level=6] [ref=e187]:
+            - generic "Click to edit" [ref=e188] [cursor=pointer]: The Eagles
+          - paragraph [ref=e189]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e190] [cursor=pointer]: "1976"
+          - paragraph [ref=e191]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e192] [cursor=pointer]: Rock
+        - generic [ref=e194]:
+          - button "" [ref=e195] [cursor=pointer]:
+            - generic [ref=e196]: 
+          - text:  
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - heading "IV" [level=5] [ref=e200]:
+            - generic "Click to edit" [ref=e201] [cursor=pointer]: IV
+          - heading "Led Zeppelin" [level=6] [ref=e202]:
+            - generic "Click to edit" [ref=e203] [cursor=pointer]: Led Zeppelin
+          - paragraph [ref=e204]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e205] [cursor=pointer]: "1971"
+          - paragraph [ref=e206]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e207] [cursor=pointer]: Rock
+        - generic [ref=e209]:
+          - button "" [ref=e210] [cursor=pointer]:
+            - generic [ref=e211]: 
+          - text:  
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - heading "King of the Delta Blues" [level=5] [ref=e215]:
+            - generic "Click to edit" [ref=e216] [cursor=pointer]: King of the Delta Blues
+          - heading "Robert Johnson" [level=6] [ref=e217]:
+            - generic "Click to edit" [ref=e218] [cursor=pointer]: Robert Johnson
+          - paragraph [ref=e219]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e220] [cursor=pointer]: "1961"
+          - paragraph [ref=e221]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e222] [cursor=pointer]: Blues
+        - generic [ref=e224]:
+          - button "" [ref=e225] [cursor=pointer]:
+            - generic [ref=e226]: 
+          - text:  
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - heading "Led Zeppelin" [level=5] [ref=e230]:
+            - generic "Click to edit" [ref=e231] [cursor=pointer]: Led Zeppelin
+          - heading "Led Zeppelin" [level=6] [ref=e232]:
+            - generic "Click to edit" [ref=e233] [cursor=pointer]: Led Zeppelin
+          - paragraph [ref=e234]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e235] [cursor=pointer]: "1969"
+          - paragraph [ref=e236]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e237] [cursor=pointer]: Rock
+        - generic [ref=e239]:
+          - button "" [ref=e240] [cursor=pointer]:
+            - generic [ref=e241]: 
+          - text:  
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - heading "Let it Bleed" [level=5] [ref=e245]:
+            - generic "Click to edit" [ref=e246] [cursor=pointer]: Let it Bleed
+          - heading "The Rolling Stones" [level=6] [ref=e247]:
+            - generic "Click to edit" [ref=e248] [cursor=pointer]: The Rolling Stones
+          - paragraph [ref=e249]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e250] [cursor=pointer]: "1969"
+          - paragraph [ref=e251]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e252] [cursor=pointer]: Rock
+        - generic [ref=e254]:
+          - button "" [ref=e255] [cursor=pointer]:
+            - generic [ref=e256]: 
+          - text:  
+      - generic [ref=e258]:
+        - generic [ref=e259]:
+          - heading "London Calling" [level=5] [ref=e260]:
+            - generic "Click to edit" [ref=e261] [cursor=pointer]: London Calling
+          - heading "The Clash" [level=6] [ref=e262]:
+            - generic "Click to edit" [ref=e263] [cursor=pointer]: The Clash
+          - paragraph [ref=e264]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e265] [cursor=pointer]: "1980"
+          - paragraph [ref=e266]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e267] [cursor=pointer]: Rock
+        - generic [ref=e269]:
+          - button "" [ref=e270] [cursor=pointer]:
+            - generic [ref=e271]: 
+          - text:  
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - heading "Nevermind" [level=5] [ref=e275]:
+            - generic "Click to edit" [ref=e276] [cursor=pointer]: Nevermind
+          - heading "Nirvana" [level=6] [ref=e277]:
+            - generic "Click to edit" [ref=e278] [cursor=pointer]: Nirvana
+          - paragraph [ref=e279]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e280] [cursor=pointer]: "1991"
+          - paragraph [ref=e281]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e282] [cursor=pointer]: Rock
+        - generic [ref=e284]:
+          - button "" [ref=e285] [cursor=pointer]:
+            - generic [ref=e286]: 
+          - text:  
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - heading "Pet Sounds" [level=5] [ref=e290]:
+            - generic "Click to edit" [ref=e291] [cursor=pointer]: Pet Sounds
+          - heading "The Beach Boys" [level=6] [ref=e292]:
+            - generic "Click to edit" [ref=e293] [cursor=pointer]: The Beach Boys
+          - paragraph [ref=e294]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e295] [cursor=pointer]: "1966"
+          - paragraph [ref=e296]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e297] [cursor=pointer]: Rock
+        - generic [ref=e299]:
+          - button "" [ref=e300] [cursor=pointer]:
+            - generic [ref=e301]: 
+          - text:  
+      - generic [ref=e303]:
+        - generic [ref=e304]:
+          - heading "Rock With Me" [level=5] [ref=e305]:
+            - generic "Click to edit" [ref=e306] [cursor=pointer]: Rock With Me
+          - heading "The Fabulous Thunderbirds" [level=6] [ref=e307]:
+            - generic "Click to edit" [ref=e308] [cursor=pointer]: The Fabulous Thunderbirds
+          - paragraph [ref=e309]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e310] [cursor=pointer]: "1979"
+          - paragraph [ref=e311]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e312] [cursor=pointer]: Blues
+        - generic [ref=e314]:
+          - button "" [ref=e315] [cursor=pointer]:
+            - generic [ref=e316]: 
+          - text:  
+      - generic [ref=e318]:
+        - generic [ref=e319]:
+          - heading "Rubber Soul" [level=5] [ref=e320]:
+            - generic "Click to edit" [ref=e321] [cursor=pointer]: Rubber Soul
+          - heading "The Beatles" [level=6] [ref=e322]:
+            - generic "Click to edit" [ref=e323] [cursor=pointer]: The Beatles
+          - paragraph [ref=e324]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e325] [cursor=pointer]: "1965"
+          - paragraph [ref=e326]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e327] [cursor=pointer]: Rock
+        - generic [ref=e329]:
+          - button "" [ref=e330] [cursor=pointer]:
+            - generic [ref=e331]: 
+          - text:  
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - heading "Rumours" [level=5] [ref=e335]:
+            - generic "Click to edit" [ref=e336] [cursor=pointer]: Rumours
+          - heading "Fleetwood Mac" [level=6] [ref=e337]:
+            - generic "Click to edit" [ref=e338] [cursor=pointer]: Fleetwood Mac
+          - paragraph [ref=e339]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e340] [cursor=pointer]: "1977"
+          - paragraph [ref=e341]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e342] [cursor=pointer]: Rock
+        - generic [ref=e344]:
+          - button "" [ref=e345] [cursor=pointer]:
+            - generic [ref=e346]: 
+          - text:  
+      - generic [ref=e348]:
+        - generic [ref=e349]:
+          - heading "Singin' The Blues" [level=5] [ref=e350]:
+            - generic "Click to edit" [ref=e351] [cursor=pointer]: Singin' The Blues
+          - heading "BB King" [level=6] [ref=e352]:
+            - generic "Click to edit" [ref=e353] [cursor=pointer]: BB King
+          - paragraph [ref=e354]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e355] [cursor=pointer]: "1956"
+          - paragraph [ref=e356]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e357] [cursor=pointer]: Blues
+        - generic [ref=e359]:
+          - button "" [ref=e360] [cursor=pointer]:
+            - generic [ref=e361]: 
+          - text:  
+      - generic [ref=e363]:
+        - generic [ref=e364]:
+          - heading "Sun Sessions" [level=5] [ref=e365]:
+            - generic "Click to edit" [ref=e366] [cursor=pointer]: Sun Sessions
+          - heading "Elvis Presley" [level=6] [ref=e367]:
+            - generic "Click to edit" [ref=e368] [cursor=pointer]: Elvis Presley
+          - paragraph [ref=e369]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e370] [cursor=pointer]: "1976"
+          - paragraph [ref=e371]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e372] [cursor=pointer]: Rock
+        - generic [ref=e374]:
+          - button "" [ref=e375] [cursor=pointer]:
+            - generic [ref=e376]: 
+          - text:  
+      - generic [ref=e378]:
+        - generic [ref=e379]:
+          - heading "Synchronicity" [level=5] [ref=e380]:
+            - generic "Click to edit" [ref=e381] [cursor=pointer]: Synchronicity
+          - heading "Police" [level=6] [ref=e382]:
+            - generic "Click to edit" [ref=e383] [cursor=pointer]: Police
+          - paragraph [ref=e384]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e385] [cursor=pointer]: "1983"
+          - paragraph [ref=e386]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e387] [cursor=pointer]: Rock
+        - generic [ref=e389]:
+          - button "" [ref=e390] [cursor=pointer]:
+            - generic [ref=e391]: 
+          - text:  
+      - generic [ref=e393]:
+        - generic [ref=e394]:
+          - heading "Texas Flood" [level=5] [ref=e395]:
+            - generic "Click to edit" [ref=e396] [cursor=pointer]: Texas Flood
+          - heading "Stevie Ray Vaughan" [level=6] [ref=e397]:
+            - generic "Click to edit" [ref=e398] [cursor=pointer]: Stevie Ray Vaughan
+          - paragraph [ref=e399]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e400] [cursor=pointer]: "1983"
+          - paragraph [ref=e401]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e402] [cursor=pointer]: Blues
+        - generic [ref=e404]:
+          - button "" [ref=e405] [cursor=pointer]:
+            - generic [ref=e406]: 
+          - text:  
+      - generic [ref=e408]:
+        - generic [ref=e409]:
+          - heading "The Joshua Tree" [level=5] [ref=e410]:
+            - generic "Click to edit" [ref=e411] [cursor=pointer]: The Joshua Tree
+          - heading "U2" [level=6] [ref=e412]:
+            - generic "Click to edit" [ref=e413] [cursor=pointer]: U2
+          - paragraph [ref=e414]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e415] [cursor=pointer]: "1987"
+          - paragraph [ref=e416]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e417] [cursor=pointer]: Rock
+        - generic [ref=e419]:
+          - button "" [ref=e420] [cursor=pointer]:
+            - generic [ref=e421]: 
+          - text:  
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - heading "The Ramones" [level=5] [ref=e425]:
+            - generic "Click to edit" [ref=e426] [cursor=pointer]: The Ramones
+          - heading "The Ramones" [level=6] [ref=e427]:
+            - generic "Click to edit" [ref=e428] [cursor=pointer]: The Ramones
+          - paragraph [ref=e429]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e430] [cursor=pointer]: "1976"
+          - paragraph [ref=e431]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e432] [cursor=pointer]: Rock
+        - generic [ref=e434]:
+          - button "" [ref=e435] [cursor=pointer]:
+            - generic [ref=e436]: 
+          - text:  
+      - generic [ref=e438]:
+        - generic [ref=e439]:
+          - heading "Thriller" [level=5] [ref=e440]:
+            - generic "Click to edit" [ref=e441] [cursor=pointer]: Thriller
+          - heading "Michael Jackson" [level=6] [ref=e442]:
+            - generic "Click to edit" [ref=e443] [cursor=pointer]: Michael Jackson
+          - paragraph [ref=e444]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e445] [cursor=pointer]: "1982"
+          - paragraph [ref=e446]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e447] [cursor=pointer]: Pop
+        - generic [ref=e449]:
+          - button "" [ref=e450] [cursor=pointer]:
+            - generic [ref=e451]: 
+          - text:  
+      - generic [ref=e453]:
+        - generic [ref=e454]:
+          - heading "What's Going On" [level=5] [ref=e455]:
+            - generic "Click to edit" [ref=e456] [cursor=pointer]: What's Going On
+          - heading "Marvin Gaye" [level=6] [ref=e457]:
+            - generic "Click to edit" [ref=e458] [cursor=pointer]: Marvin Gaye
+          - paragraph [ref=e459]:
+            - text: "Year:"
+            - generic "Click to edit" [ref=e460] [cursor=pointer]: "1971"
+          - paragraph [ref=e461]:
+            - text: "Genre:"
+            - generic "Click to edit" [ref=e462] [cursor=pointer]: Rock
+        - generic [ref=e464]:
+          - button "" [ref=e465] [cursor=pointer]:
+            - generic [ref=e466]: 
+          - text:  
+```
