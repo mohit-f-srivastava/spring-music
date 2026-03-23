@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew test:*)",
+      "Bash(where java:*)",
+      "Read(//c/Program Files/**)",
+      "Bash(cmd /c \"where java 2>&1 && echo JAVA_HOME=%JAVA_HOME%\")",
+      "Bash(cmd /c \"java -version 2>&1\")",
+      "Bash(cmd /c \"dir \\\\\"C:\\\\\\\\Program Files\\\\\\\\Java\\\\\" 2>&1 & dir \\\\\"C:\\\\\\\\Program Files\\\\\\\\Eclipse Adoptium\\\\\" 2>&1 & dir \\\\\"C:\\\\\\\\Program Files\\\\\\\\Microsoft\\\\\" 2>&1 | findstr /i java\")",
+      "Bash(powershell -Command \"Get-Command java -ErrorAction SilentlyContinue; [System.Environment]::GetEnvironmentVariable\\('JAVA_HOME', 'Machine'\\); [System.Environment]::GetEnvironmentVariable\\('JAVA_HOME', 'User'\\); Get-ChildItem 'C:\\\\Program Files' -Directory | Where-Object {$_.Name -match 'java|jdk|jre'}\")",
+      "Bash(cmd /c \"dir \\\\\"C:\\\\\\\\Program Files\\\\\\\\Java\\\\\" /b 2>&1\")",
+      "Bash(cmd /c \"dir \\\\\"C:\\\\\\\\Program Files\\\\\\\\Eclipse Adoptium\\\\\" /b 2>&1\")",
+      "Bash(cmd /c \"reg query \\\\\"HKLM\\\\\\\\SOFTWARE\\\\\\\\JavaSoft\\\\\" /s 2>&1 | findstr /i \\\\\"JavaHome CurrentVersion\\\\\" | head -20\")",
+      "Bash(cmd /c \"reg query HKLM\\\\\\\\SOFTWARE\\\\\\\\JavaSoft /s 2>&1\")"
+    ]
+  }
+}

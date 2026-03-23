@@ -1,0 +1,43 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-spring {
+  background: linear-gradient(to bottom, #008a00, #006b00);
+}
+
+.page-header {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.ipe-value {
+  cursor: pointer;
+  border-bottom: 1px dashed #adb5bd;
+  display: inline-block;
+}
+
+.ipe-value:hover {
+  background-color: #e9ecef;
+  border-radius: 3px;
+}
+
+.ipe-input-group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ipe-input-group .form-control {
+  min-width: 80px;
+  width: auto;
+}
+
+.card {
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.12) !important;
+}

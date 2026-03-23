@@ -19,3 +19,6 @@ build/
 
 *.log*
 /classes/
+
+frontend/node_modules
+test/node_modules

@@ -1,0 +1,13 @@
+{
+  "name": "spring-music-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
